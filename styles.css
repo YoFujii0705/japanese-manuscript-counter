@@ -1,0 +1,9 @@
+/* Japanese Manuscript Counter Plugin Styles */
+
+.status-bar-item.plugin-japanese-manuscript-counter {
+    cursor: help;
+}
+
+.status-bar-item.plugin-japanese-manuscript-counter:hover {
+    background-color: var(--background-modifier-hover);
+}
