@@ -54,7 +54,9 @@ npm run build
 
 #### 開発モード
 npm run dev
-ライセンス
+
+### ライセンス
 MIT License
-サポート
+
+### サポート
 問題や要望がある場合は、GitHub Issuesでお知らせください。
