@@ -5,6 +5,6 @@
   "minAppVersion": "0.15.0",
   "description": "日本語の文字数と400字詰め原稿用紙換算をリアルタイム表示します。改行、段落、禁則処理を考慮した正確なカウントを提供します。",
   "author": "Yo Fujii",
-  "authorUrl": "",
+  "authorUrl": "https://github.com/YoFujii0705",
   "isDesktopOnly": false
 }
