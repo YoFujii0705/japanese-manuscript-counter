@@ -351,9 +351,7 @@ var JapaneseManuscriptCounterPlugin = (function (Plugin) {
         
         var modal = new obsidian.Modal(this.app);
         modal.titleEl.setText('原稿用紙カウント詳細');
-        modal.contentEl.style.whiteSpace = 'pre-wrap';
-        modal.contentEl.style.fontFamily = 'monospace';
-        modal.contentEl.style.fontSize = '12px';
+        modal.contentEl.addClass('manuscript-counter-debug-modal');
         modal.contentEl.setText(modalContent);
         modal.open();
     };
