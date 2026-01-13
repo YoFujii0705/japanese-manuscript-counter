@@ -7,3 +7,9 @@
 .status-bar-item.plugin-japanese-manuscript-counter:hover {
     background-color: var(--background-modifier-hover);
 }
+
+.manuscript-counter-debug-modal {
+    white-space: pre-wrap;
+    font-family: var(--font-monospace); /* Obsidianの定義変数を使うのがベスト */
+    font-size: 12px;
+}
