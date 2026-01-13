@@ -288,7 +288,6 @@ var JapaneseManuscriptCounterPlugin = (function (Plugin) {
 
     JapaneseManuscriptCounterPlugin.prototype.onload = function() {
         var self = this;
-        console.log('Japanese Manuscript Counter plugin loaded');
 
         this.counter = new ManuscriptCounter();
         this.statusBarItem = this.addStatusBarItem();
@@ -426,7 +425,7 @@ var JapaneseManuscriptCounterPlugin = (function (Plugin) {
     };
 
     JapaneseManuscriptCounterPlugin.prototype.onunload = function() {
-        console.log('Japanese Manuscript Counter plugin unloaded');
+        
     };
 
     return JapaneseManuscriptCounterPlugin;
